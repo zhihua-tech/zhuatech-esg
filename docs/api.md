@@ -9,3 +9,4 @@
 | GET | `/api/admin/work-orders` | 披露任务清单 |
 | GET | `/api/shopfloor/dashboard` | 工程师任务工作台 |
 | POST | `/api/shopfloor/work-orders/{id}/reports` | 提交披露结果 |
+| POST | `/api/admin/carbon-path` | 评估减排目标路径与年度减排压力 |
