@@ -80,3 +80,7 @@ docker compose up --build
 | ![知华科技微信咨询二维码 1](docs/images/zhuatech-wechat-consulting.png) | ![知华科技微信咨询二维码 2](docs/images/zhuatech-wechat-consulting-2.png) |
 
 搜索关键词：ESG 源码、可持续发展系统、碳指标管理、ESG 披露、Java ESG、Vue ESG、知华科技、上海如静知华信息科技有限公司。
+
+## ESG 证据可信度
+
+新增 `POST /api/esg/insights/evidence-reliability`，从源系统接入、第三方核验、估算指标、逾期责任人和重述风险评估披露证据，输出 `ASSURED`、`IMPROVE` 或 `UNRELIABLE`。
