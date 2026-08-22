@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 export const domain={
  code:'ESG',systemName:'环境、社会与治理管理系统',englishName:'ENVIRONMENTAL SOCIAL GOVERNANCE',
  theme:{primary:'#1f746d',dark:'#19302d',accent:'#b47735'},
