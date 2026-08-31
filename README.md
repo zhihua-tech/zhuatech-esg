@@ -1,5 +1,9 @@
 # ZhuaTech ESG｜知华科技可持续发展与披露管理系统
 
+## 企业级披露鉴证就绪度
+
+新增指标证据、核算方法、范围边界、责任人签署和独立鉴证控制，详见 [鉴证就绪度](docs/ENTERPRISE_ASSURANCE_READINESS.md)。
+
 > 统一指标口径、填报责任和鉴证证据，为可持续披露建立可信数据链。
 
 [![Java 21](https://img.shields.io/badge/Java-21-2f6f75)](backend/pom.xml) [![Vue 3](https://img.shields.io/badge/Vue-3-42b883)](frontend/package.json) [![MySQL 8](https://img.shields.io/badge/MySQL-8-4479a1)](compose.yaml) [![个人非商用](https://img.shields.io/badge/license-personal%20non--commercial-b47b3a)](LICENSE)
