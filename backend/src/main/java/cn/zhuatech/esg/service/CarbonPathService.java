@@ -8,8 +8,14 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+ */
 @Service
 public class CarbonPathService {
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     public Result evaluate(Request r) {
         double targetEmission = r.baselineEmission() * (1 - r.targetReductionPercent() / 100.0);
         double reduction = (r.baselineEmission() - r.currentEmission()) / r.baselineEmission() * 100;
@@ -28,12 +34,21 @@ public class CarbonPathService {
         return new Result(scale(targetEmission), scale(reduction), scale(intensityReduction), scale(gap),
             scale(annualReduction), scale(annualRate), status, actions);
     }
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     private double scale(double value) { return BigDecimal.valueOf(value).setScale(2, RoundingMode.HALF_UP).doubleValue(); }
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     public record Request(@Positive double baselineEmission, @PositiveOrZero double currentEmission,
         @Positive double baselineRevenue, @Positive double currentRevenue,
         @DecimalMin("0") @DecimalMax("100") double targetReductionPercent,
         @DecimalMin("0") @DecimalMax("100") double renewableEnergyPercent,
         @Min(2000) int currentYear, @Min(2001) int targetYear) {}
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     public record Result(double targetEmission, double achievedReductionPercent, double intensityReductionPercent,
         double targetGap, double requiredAnnualReduction, double requiredAnnualReductionPercent,
         String status, List<String> actions) {}
