@@ -1,5 +1,7 @@
 # ZhuaTech ESG｜知华科技可持续发展与披露管理系统
 
+[简体中文](README.md) | [English](README.en.md)
+
 ## 企业级披露鉴证就绪度
 
 新增指标证据、核算方法、范围边界、责任人签署和独立鉴证控制，详见 [鉴证就绪度](docs/ENTERPRISE_ASSURANCE_READINESS.md)。
