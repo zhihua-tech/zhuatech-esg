@@ -1,0 +1,49 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "PASS",
+      "coveragePct": "#90",
+      "requiredVerified": "#16",
+      "verificationGap": "#0"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "verified": "10"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "verificationGap": "#6"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "restatements": "1"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "verified": "21"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "indicators": "0",
+      "evidenced": "0",
+      "verified": "0"
+    },
+    "expected": {
+      "decision": "REVIEW"
+    },
+    "error": false
+  }
+]
